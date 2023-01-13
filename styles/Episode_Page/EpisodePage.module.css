@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  margin-top: .6rem;
+}
+
+.info_artist_container {
+  flex: 20%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 7px 16px #bebebe;
+  margin: 1rem;
+  height: 50%;
+}
+
+.image_artist_container {
+  display: flex;
+  justify-content: center;
+}
+
+.image_artist {
+  border-radius: 10px;
+}
+
+.info_artist_name {
+  text-align: left;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title_track {
+  font-weight: 700;
+}
+
+.title_artist {
+  font-style: italic;
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+}
+
+.info_description_description {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.description_title {
+  font-weight: 600;
+}
+
+.description_text {
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+  font-style: italic;
+}
+
+.info_podcast_container {
+  flex: 80%;
+
+}
+
+.podcast_container {
+  height: auto;
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 3px 16px #bebebe;
+}
+
+.title_podcast {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.description_podcast {
+  text-align: justify;
+  padding-bottom: 1.5rem;
+}
+
+.info_podcast_player {
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+}
+
+.audio_controller {
+  width: 100%;
+}
