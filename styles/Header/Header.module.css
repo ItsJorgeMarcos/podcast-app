@@ -1,0 +1,11 @@
+.container_logo{
+  border-bottom: 1px solid #EFE9EA;
+  height: 7vh;
+}
+
+.text_logo {
+  color: #4070AD;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 1rem;
+}
