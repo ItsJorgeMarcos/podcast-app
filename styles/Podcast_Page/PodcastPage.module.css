@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  margin-top: .6rem;
+}
+
+.info_artist_container {
+  flex:20%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 7px 16px #bebebe;
+  margin: 1rem;
+  height: 50%;
+}
+
+.image_artist_container {
+  display: flex;
+  justify-content: center;
+}
+
+.image_artist {
+  border-radius: 10px;
+}
+
+.info_artist_name {
+  text-align: left;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title_track {
+  font-weight: 700;
+}
+
+.title_artist {
+  font-style: italic;
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+}
+
+.info_description_description {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.description_title {
+  font-weight: 600;
+}
+
+.description_text {
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+  font-style: italic;
+}
+
+.info_episode_container {
+  flex:80%;
+  margin: 1rem;
+}
+
+.counter_episode {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 3px 16px #bebebe;
+  padding: 1rem;
+}
+
+.counter_text {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 750;
+}
+
+.episodes_container {
+  margin-top: 1.3rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 7px 16px #bebebe;
+  padding: 1rem;
+}
+
+.headers_table {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.table_row:nth-child(even) {
+  background-color: #f5f5f5;
+}
